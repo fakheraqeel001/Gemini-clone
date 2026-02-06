@@ -5,8 +5,8 @@ import { Prism as SyntaxHighliter } from 'react-syntax-highlighter'
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism'
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-const genAi = new GoogleGenerativeAI("AIzaSyBFg9PoEhesVFkHV4BPdoi3JlePUP0lARc")
-const model = genAi.getGenerativeModel({model: "gemini-1.5-flash"})
+const genAi = new GoogleGenerativeAI("AIzaSyDRfwvY0i-6HblVFGNaqU1ZYEbhMr1nD4k")
+const model = genAi.getGenerativeModel({model: "gemini-3-flash-preview"})
 
 const ChatApp = () => {
     const [messages, setMessages] = useState([])
